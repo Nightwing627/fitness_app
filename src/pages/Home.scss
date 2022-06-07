@@ -1,0 +1,365 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: rgb(233, 244, 249);
+}
+
+.main {
+  background: rgba(139, 235, 252, 0.116);
+  padding-top: 75px;
+
+  &__steps-title {
+    z-index: 4;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 70px;
+    color: #3E3E3E;
+    margin: 0 auto 51px;
+    text-align: center;
+  }
+
+  &__steps-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main__doctors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 84px;
+
+    .main__doctors-content {
+      width: 100%;
+      max-width: 495px;
+      margin-left: 144px;
+
+      .main__doctors-title {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 49px;
+        letter-spacing: 0.02em;
+        color: #3D3D3F;
+        margin-bottom: 24px;
+      }
+
+      .main__content-about {
+        font-family: "Roboto";
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.02em;
+        color: rgba(61, 61, 63, 0.7);
+        margin-bottom: 3px;
+      }
+
+      .main__content-benefits li {
+        margin-bottom: 14px;
+
+        img {
+          margin-right: 18px;
+        }
+      }
+    }
+  }
+
+  .our__service {
+    margin-top: 143px;
+
+    .our__service-title {
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 49px;
+      letter-spacing: 0.02em;
+      color: #3D3D3F;
+      text-align: center;
+    }
+
+    .our__service-about {
+      font-family: "Roboto";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.02em;
+      color: rgba(61, 61, 63, 0.7);
+      margin: 24px 0 75px;
+    }
+
+    .service__cards {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+.doctors {
+  padding: 220px 0 0;
+  background: rgba(139, 235, 252, 0.116);
+
+  .doctors__title {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    text-align: center;
+  }
+
+  .doctors__about {
+    max-width: 514px;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: rgba(61, 61, 63, 0.7);
+    padding: 70px 0 47px;
+
+  }
+
+  .doctors__items {
+
+    display: flex;
+    justify-content: center;
+    column-gap: 36px;
+  }
+
+  .doctors__btn {
+    display: flex;
+    justify-content: center;
+    padding: 58px 0 0;
+  }
+}
+
+.mobileApp {
+  padding: 80px 0;
+  background: rgba(139, 235, 252, 0.116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -10%;
+
+  .mobileApp__content {
+    max-width: 504px;
+
+    h2 {
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 60px;
+      letter-spacing: 0.02em;
+      color: #3D3D3F;
+    }
+
+    p {
+      font-family: "Roboto";
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 30px;
+      letter-spacing: 0.02em;
+      color: rgba(61, 61, 63, 0.7);
+      margin: 30px 0;
+    }
+
+    .mobileApp__content-icons {
+      display: flex;
+      column-gap: 13px;
+    }
+  }
+
+}
+
+.clients {
+  padding-top: 120px;
+  background: rgba(139, 235, 252, 0.116);
+
+  .clients__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3D3D3F;
+    text-align: center;
+  }
+
+  .clients__items {
+    display: flex;
+    justify-content: center;
+    column-gap: 33px;
+    margin-top: 93px;
+  }
+}
+
+.appointment {
+  background: rgba(139, 235, 252, 0.116);
+  padding: 198px 0 123px;
+
+  .appointment__bg {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #40A3F8;
+    border-radius: 12px;
+    padding: 82px 0 92px 118px;
+
+    .appointment__title {
+      h2 {
+        max-width: 402px;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 47px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        margin-bottom: 21px;
+      }
+
+
+    }
+
+    img {
+      position: absolute;
+      top: -110px;
+      right: -90px;
+    }
+  }
+
+}
+
+footer {
+
+  .footerTop {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 0 30px;
+
+    .footerTop__address {
+
+      .footerTop__address-street {
+        font-family: "DM Sans";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 180%;
+        color: #646464;
+      }
+
+      .footerTop__address-contact {
+        font-family: "DM Sans";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 180%;
+        color: #646464;
+        margin: 16px 0;
+      }
+
+      .footerTop__address-icons {
+        display: flex;
+        column-gap: 16px;
+      }
+    }
+
+    .footerTop__sections {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 114px;
+
+      .footerTop__sections-category {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+
+        li {
+          a {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 14px;
+            color: #646464;
+
+            &:hover {
+              color: #0f0f0f;
+            }
+          }
+        }
+      }
+
+
+    }
+
+    .footerTop__signup {
+      h3 {
+        font-family: "DM Sans";
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #323232;
+      }
+
+      p {
+        max-width: 277px;
+        font-family: "DM Sans";
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 180%;
+        color: #646464;
+        margin: 19px 0 15px;
+
+      }
+    }
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 0;
+    background: #E5E5E5;
+
+    h3 {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      color: #646464;
+
+    }
+
+    ul {
+      display: flex;
+      justify-content: space-around;
+      column-gap: 54px;
+
+      li {
+        a {
+          font-family: "DM Sans";
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 14px;
+          color: #646464;
+
+          &:hover {
+            color: #202020;
+          }
+
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,45 @@
+{
+    "sections": [
+        {
+            "id": 0,
+            "imageUrl": "./images/search.svg",
+            "name": "Find best doctor’s",
+            "about": "Find your doctor easily with a minimum of effort. We've kept everything organised for you."
+        },
+        {
+            "id": 1,
+            "imageUrl": "./images/calendar.svg",
+            "name": "Get Appointment",
+            "about": "Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest."
+        },
+        {
+            "id": 2,
+            "imageUrl": "./images/online-app.svg",
+            "name": "Happy Consultations",
+            "about": "Do consultations and  take the service based on your appointment. Get back to good health."
+        }
+    ],
+
+    "services": [
+        {
+          "id": 0,
+          "serviceImage": "./images/cardiology.svg",
+          "title": "Cardiology",
+          "text": " Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system."
+        },
+    
+        {
+          "id": 1,
+          "serviceImage": "./images/pulmonology.svg",
+          "title": "Pulmonology",
+          "text": "Our Pulmonologist are skilled at  diagnosing treating diseases of the Pulmonology system."
+        },
+        {
+          "id": 2,
+          "serviceImage": "./images/medicine.svg",
+          "title": "Medicine",
+          "text": "Our medcine doctor are skilled at  diagnosing treating diseases of the  latest medicne system."
+        }
+      ]
+} 
+
